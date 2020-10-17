@@ -32,6 +32,12 @@ form button {
   outline: none;
 }
 
+@media (max-width: 600px) {
+  form input {
+    width: 10rem;
+  }
+}
+
 form button {
   color: #d88771;
   background: #ffffff;
